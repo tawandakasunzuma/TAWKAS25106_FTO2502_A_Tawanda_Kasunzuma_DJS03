@@ -1,0 +1,46 @@
+/* ===============
+    Loader
+=============== */
+
+.loading-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loading-circle {
+    width: 120px;
+    height: 120px;
+    border: 8px solid rgba(35, 70, 105, 0.125);
+    border-top: 8px solid rgb(35, 70, 105);
+    border-radius: 50%;
+    animation: spinnerLoader 1200ms linear infinite;
+}
+
+@keyframes spinnerLoader {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* ===============
+    Error Message
+=============== */
+
+.error-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid rgba(35, 70, 105, 0.75);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+
+}
+
+.error-msg {
+    color: rgb(35, 70, 105);
+    font-size: 1.125rem;
+    font-weight: bold;
+}

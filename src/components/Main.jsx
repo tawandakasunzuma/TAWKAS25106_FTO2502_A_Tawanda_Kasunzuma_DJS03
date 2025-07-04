@@ -1,13 +1,12 @@
 import "../styles/Main.css"
 import FilterSection from "./FilterSection"
+import CardSection from "./CardSection"
 
-export default function Main () {
+export default function Main ({podcastData}) {
     return (
         <main>
             <FilterSection />
-            <section className="card-section">
-                /* Card Section */
-            </section>
+            <CardSection podcastData={podcastData} />
         </main>
     )
 }

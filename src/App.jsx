@@ -38,12 +38,10 @@ export default function App() {
       })
   },[])
 
-  console.log(podcastData);
-
   return (
     <>
       <Header />
-      <Main />
+      <Main podcastData={podcastData} />
 
       {hasError && 
         <div className='error-container'>

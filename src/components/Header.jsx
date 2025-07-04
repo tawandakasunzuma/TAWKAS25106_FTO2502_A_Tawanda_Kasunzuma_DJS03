@@ -3,7 +3,6 @@ import accountCircle from '../assets/images/account-circle-icon.svg'
 import searchIcon from "../assets/images/search-icon.svg"
 import podcastIcon from "../assets/images/podcast-icon.svg"
 
-
 export default function Header () {
     return (
         <header>
@@ -13,14 +12,14 @@ export default function Header () {
             </div>
             <div className="header-right">
                 <img
-                className="search-icon icon-2"
-                src={searchIcon}
-                alt="Search icon"
+                    className="search-icon icon-2"
+                    src={searchIcon}
+                    alt="Search icon"
                 />
                 <img
-                className="icon-3"
-                src={accountCircle}
-                alt="Profile picture"
+                    className="icon-3"
+                    src={accountCircle}
+                    alt="Profile picture"
                 />
             </div>
         </header>

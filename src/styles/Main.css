@@ -3,10 +3,3 @@ main {
     padding: var(--normal-padding) var(--large-padding);
     min-height: 90vh;
 }
-
-.card-section {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: var(--big-gap);
-    margin-bottom: 1rem;
-}

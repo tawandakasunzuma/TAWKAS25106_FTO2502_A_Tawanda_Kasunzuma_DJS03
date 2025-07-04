@@ -16,7 +16,9 @@ header {
     gap: var(--normal-gap);
 }
 
-.icon-1,icon-2,icon-3 {
+.icon-1,
+.icon-2,
+.icon-3 {
     width: 30px;
     height: auto;
     cursor: pointer;
